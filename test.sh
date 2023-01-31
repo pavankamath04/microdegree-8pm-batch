@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "namaksakra"
+echo "namaksakra friends"
 hello
 trail for merge
 
