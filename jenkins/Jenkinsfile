@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage("first build"){
+            steps{
+                sh "echo build is sucess"
+            }
+        }
+        stage("second build"){
+            steps{
+                sh "echo uptime"
+            }
+        }
+    }
+}
