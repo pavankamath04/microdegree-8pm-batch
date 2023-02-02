@@ -32,6 +32,8 @@ pipeline{
 		    sh '''
                     echo "today date"
                     date
+		    cal feb 
+		    free
 		    '''
                 }
             }
